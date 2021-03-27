@@ -7,10 +7,10 @@
 *:after {
   box-sizing: inherit;
   box-sizing: border-box;
-  --bg-color: rgb(37, 37, 37);
+  --bg-color: #104783;
   --text-color: #eee;
-  --title-color: rgb(129, 184, 27);
-  --header-color: rgb(173, 204, 33);
+  --title-color: #C9082A;
+  --header-color: #C9082A;
   background-color: var(--bg-color);
   color: var(--text-color);
 }

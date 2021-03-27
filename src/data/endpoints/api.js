@@ -29,3 +29,35 @@ export const getAllAvatarCharacters = async (setCharacters) => {
  * - from there, decide what part of res.data to pass to your function parameter (in this case, I passed the entire thing!)
  * - I also deleted my custom CSS from the index.css file so feel free to have fun & play around with the look of your app!
  */
+export const getAllNBATeams = async (setTeams) => {
+  const url = 'https://www.balldontlie.io/api/v1/teams';
+  return axios
+    .get(url)
+    .then((res) => {
+      setTeams(res.data);
+      return {data: res.data, success: true};
+    })
+    .catch((e) => {
+      return {success: false, message: e.message};
+    });
+};
+
+export const getPlayer = async (setImageURL, name) => {
+  console.log("KDJFHJKDHJKFDHKJDFHJKDFHKJDFHDSKJF")
+  let name_arr = name.split(" ");
+  console.log("first name", name_arr[0]);
+  console.log("last name", name_arr[1]);
+  const url = `https://nba-players.herokuapp.com/players/${name_arr[1]}/${name_arr[0]}`;
+  console.log(url);
+  return axios
+    .get(url)
+    .then((res) => {
+      setImageURL(url);
+      console.log(res.data)
+      return {data: res.data, success: true};
+    })
+    .catch((e) => {
+      console.log("ERROR", e);
+      return {success: false, message: e.message};
+    });
+};
