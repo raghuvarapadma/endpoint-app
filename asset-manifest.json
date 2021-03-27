@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/endpoint-app/static/css/main.4ed9901f.chunk.css",
-    "main.js": "/endpoint-app/static/js/main.a69eeb58.chunk.js",
-    "main.js.map": "/endpoint-app/static/js/main.a69eeb58.chunk.js.map",
+    "main.css": "/endpoint-app/static/css/main.d9b29c84.chunk.css",
+    "main.js": "/endpoint-app/static/js/main.648baa69.chunk.js",
+    "main.js.map": "/endpoint-app/static/js/main.648baa69.chunk.js.map",
     "runtime-main.js": "/endpoint-app/static/js/runtime-main.783f30e6.js",
     "runtime-main.js.map": "/endpoint-app/static/js/runtime-main.783f30e6.js.map",
     "static/css/2.150d169a.chunk.css": "/endpoint-app/static/css/2.150d169a.chunk.css",
-    "static/js/2.7d43ea79.chunk.js": "/endpoint-app/static/js/2.7d43ea79.chunk.js",
-    "static/js/2.7d43ea79.chunk.js.map": "/endpoint-app/static/js/2.7d43ea79.chunk.js.map",
+    "static/js/2.3578222b.chunk.js": "/endpoint-app/static/js/2.3578222b.chunk.js",
+    "static/js/2.3578222b.chunk.js.map": "/endpoint-app/static/js/2.3578222b.chunk.js.map",
     "index.html": "/endpoint-app/index.html",
     "static/css/2.150d169a.chunk.css.map": "/endpoint-app/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.4ed9901f.chunk.css.map": "/endpoint-app/static/css/main.4ed9901f.chunk.css.map",
-    "static/js/2.7d43ea79.chunk.js.LICENSE.txt": "/endpoint-app/static/js/2.7d43ea79.chunk.js.LICENSE.txt"
+    "static/css/main.d9b29c84.chunk.css.map": "/endpoint-app/static/css/main.d9b29c84.chunk.css.map",
+    "static/js/2.3578222b.chunk.js.LICENSE.txt": "/endpoint-app/static/js/2.3578222b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.783f30e6.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.7d43ea79.chunk.js",
-    "static/css/main.4ed9901f.chunk.css",
-    "static/js/main.a69eeb58.chunk.js"
+    "static/js/2.3578222b.chunk.js",
+    "static/css/main.d9b29c84.chunk.css",
+    "static/js/main.648baa69.chunk.js"
   ]
 }
